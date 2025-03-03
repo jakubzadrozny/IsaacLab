@@ -48,7 +48,7 @@ EXTRAS_REQUIRE = {
 }
 # Add the names with hyphens as aliases for convenience
 EXTRAS_REQUIRE["rl_games"] = EXTRAS_REQUIRE["rl-games"]
-EXTRAS_REQUIRE["rsl_rl"] = EXTRAS_REQUIRE["rsl-rl"]
+EXTRAS_REQUIRE["rsl_rl"] = EXTRAS_REQUIRE["rsl-rl-lib"]
 
 # Check if the platform is Linux and add the dependency
 if platform.system() == "Linux":
